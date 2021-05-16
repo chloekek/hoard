@@ -5,6 +5,10 @@
 
 extern crate serde_json;
 
-pub use crate::info_json::*;
+pub use crate::{
+    info_json::*,
+    scrape::*,
+};
 
 mod info_json;
+mod scrape;
